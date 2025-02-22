@@ -51,7 +51,7 @@ svg:hover{
         ". b b b b . h h h h h ."
         ". b b b b . h h h h h ."
         ". i i i i . h h h h h ."
-        ". i i i i . h h h h h .";
+        ". i i i i . . . . . . .";
 }
 
 
@@ -59,7 +59,7 @@ svg:hover{
     grid-area: t;
 }
 .text-container h1 {
-    margin-bottom: 0.2em; /* Adjust this value as needed */
+    margin-bottom: 0; /* Adjust this value as needed */
   }
   
   .text-container h2 {
@@ -91,3 +91,38 @@ svg:hover{
        gap: 10px;
       }
     }
+
+    @media (max-width: 750px) { 
+
+        .container {
+          display: grid;
+          width:100vw;
+          height:100vh;
+          grid-gap: 3px;
+          grid-template-columns: repeat(4, 1fr);
+          grid-template-rows: repeat(5, 1fr) ;
+          grid-template-areas: 
+              "t t t t"
+              ". f f f"
+              ". f f f"
+              ". f f f"
+              "i i . .";
+      }
+      .frog-container {
+        grid-area: f;
+        width: 90%; /* Adjust the width to fit the screen /
+        max-width: 800px; / Ensure the image does not get too large /
+        margin: 0 auto; / Center the frog image /
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+  
+      .frog-container img {
+        width: 100%;
+        height: auto;
+        object-fit: contain; / Ensure the image scales correctly */
+      }
+  
+    }
+  
