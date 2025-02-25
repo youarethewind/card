@@ -37,7 +37,7 @@ svg {
     size: 10px;
 }
 svg:hover{
-    fill:burlywood
+    fill:burlywood 
 }
 .container {
     height: 100%;
@@ -51,7 +51,7 @@ svg:hover{
         ". b b b b . h h h . . ."
         ". . . . . . h h h . . ."
         ". i i i i . h h h . . ."
-        ". i i i i . h h h. . .";
+        ". . . . . . h h h . . .";
 }
 
 
