@@ -49,8 +49,9 @@ svg:hover{
     grid-template-areas: 
         ". t t t t t h h h . . ."
         ". b b b b . h h h . . ."
-        ". b b b b . h h h . . ."
-        ". i i i i . h h h . . .";
+        ". . . . . . h h h . . ."
+        ". i i i i . h h h . . ."
+        ". i i i i . h h h. . .";
 }
 
 
