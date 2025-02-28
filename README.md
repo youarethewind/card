@@ -1,1 +1,5 @@
- 
+ ## Documentation
+
+This web page serves as a digital business card in relation to my art and branding as an artist. It is a simple layout with one of my illustrations being the biggest component on the page, as I feel it's important to include my artwork on any sort of business card that I make for my art career. It also includes icons which take you to my instagram account and my email, so anyone can explore my artwork, or contact me. For the layout, I used Adobe Illustrator to create a mock up. 
+
+This was my very first time creating a web page, coding, and using HTML and CSS. I learned a lot of the important basics of HTML and CSS. I also learned about ways to make a web page more accessible, such as including alt text on the images and icons. I also made sure that my fonts, font sizes, and color choices all work together to be easy to see and read. The fonts that I chose for this page include Funkydori and Sweet Gothic. Both are easy to read, while still providing certain characteristics that I feel fit with me and my art. Funkydori has some soft, funky, handmade qualities, which are also words that I would use to describe my own art. 
